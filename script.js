@@ -39,7 +39,7 @@ fetch(
       .map((recipe) => {
         return `
       <div class="recipe-card">
-        <p hidden>${recipe.original_video_url || recipe.video_url}</p>
+        <span hidden>${recipe.original_video_url || recipe.video_url}</span>
         <div class="recipe-header">
           <img
             src="${recipe.thumbnail_url}"
